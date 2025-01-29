@@ -1,8 +1,8 @@
-import express from 'express';
-import { test } from '../controllers/user.controller.js';
+import express from "express";
+import { test } from "../controllers/user.controller.js";
 
-const router = express.Router(); // Use Router() with uppercase R
+const router = express.Router();
 
-router.get('/test',test);
+router.get("/test", test);
 
-export default router; // Make sure to export the router if you're using it in other files
+export default router;
